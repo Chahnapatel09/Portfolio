@@ -14,7 +14,7 @@ const Contact = () => {
             <ul className='text-sm md:text-xl space-y-3 mt-4 md:mt-0'>
                 <li className='flex gap-1 items-center'>
                     <img src={github} alt="" className='w-5 h-5' />
-                    <a href='https://github.com/Chahnapatel09' target="_blank" rel="noopener noreferrer" className='text-sm md:text-md'>GitHub chahna</a>
+                    <a href='https://github.com/Chahnapatel09' target="_blank" rel="noopener noreferrer" className='text-sm md:text-md'>GitHub</a>
                 </li>
                 <li className='flex gap-1 items-center'>
                     <img src={linkedin} alt="" className='w-5 h-5'/>
