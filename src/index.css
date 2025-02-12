@@ -1,0 +1,55 @@
+@import "tailwindcss";
+*{
+  scroll-behavior: smooth;
+}
+/* Hide scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE & Edge */
+body {
+  -ms-overflow-style: none;
+}
+
+
+.short-violet-gradient {
+  background: linear-gradient(
+    180deg,
+    #915eff 0%,
+    #7d50e2 50%,
+    transparent 100%
+  );
+}
+
+
+@keyframes pulse-scale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+.animate-pulse-scale {
+  animation: pulse-scale 3s ease-in-out infinite;
+}
+
+
+@keyframes spin3d {
+  from {
+    transform: rotate3d(1, 1, 1, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+.animate-3d-spin {
+  animation: spin3d 6s linear infinite;
+}
