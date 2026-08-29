@@ -20,7 +20,6 @@ const Home = () => {
           {/* Right Section: Text Content */}
           <div>
             <h1 className="text-white text-2xl md:text-5xl lg:text-4xl font-bold pt-10">
-              {/* Hi, I'm <span className="text-[#915EFF]">Chahna</span> */}
               <TextChange />
             </h1>
             <p className="mt-2 text-white text-lg md:text-xl">
